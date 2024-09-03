@@ -1,2 +1,2 @@
 a = round(float(input()), 2)
-print(a)
+print(f"{a:.2}")
