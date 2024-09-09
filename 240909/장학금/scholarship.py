@@ -4,8 +4,8 @@ if a >= 90:
     if b < 90:
         print(0)
     elif b < 95:
-        print(5)
+        print(50000)
     else:
-        print(10)
+        print(100000)
 else:
     print(0)
