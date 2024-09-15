@@ -1,7 +1,8 @@
 a, b = map(int, input().split())
 m = 0
 
-print("0.", end='')
+print(a//b, end='')
+print(".", end='')
 
 for i in range(20):
     print((a * 10) // b, end='')
