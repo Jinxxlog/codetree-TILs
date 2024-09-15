@@ -1,9 +1,13 @@
 a, b = map(int, input().split())
-m = 0
+n = 0
 
 print(a//b, end='')
 print(".", end='')
 
-for i in range(20):
-    print((a * 10) // b, end='')
-    a = (a * 10) % b
+while n < 20:
+    if a <= b:
+        print((a * 10) // b, end='')
+        a = (a * 10) % b
+        n += 1
+    else:
+        a = a % b
