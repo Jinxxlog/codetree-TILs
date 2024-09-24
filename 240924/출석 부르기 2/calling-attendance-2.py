@@ -1,7 +1,7 @@
 while True:
     n = int(input())
     if n == 1:
-        print("Jhon")
+        print("John")
     elif n == 2:
         print("Tom")
     elif n == 3:
